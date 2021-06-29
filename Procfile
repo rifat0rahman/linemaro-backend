@@ -1,1 +1,1 @@
-web: gunicorn LineMaroBack.wsgi --log-file -
+web: daphne -p $PORT -b 0.0.0.0 LineMaroBack.asgi:application

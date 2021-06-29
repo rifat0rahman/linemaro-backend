@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wu-g3kvo9d&opbcg$=c1=2y#$1si%g1=$!mhd05iip(j8yupo0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','linemaro-backend.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','https://linemaro-backend.herokuapp.com']
 
 
 # Application definition
@@ -84,7 +84,7 @@ TEMPLATES = [
 
 CORS_ALLOWED_ORIGINS =[
     'http://localhost:3000',
-    'linemaro.herokuapp.com',
+    'https://linemaro-backend.herokuapp.com',
 ]
 
 WSGI_APPLICATION = 'LineMaroBack.wsgi.application'
