@@ -1,0 +1,1 @@
+web: gunicorn LineMaroBack.wsgi --log-file -
